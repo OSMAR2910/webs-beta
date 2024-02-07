@@ -1,0 +1,167 @@
+
+@import "carga";
+@import "cursor";
+@import "variables";
+@import "navbarNav";
+*{
+    scroll-behavior:smooth;
+}
+body {
+    background-color: $Primario;
+    .pags {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+    #pag1 {
+        #pag1-iz {
+            width: 50vw;
+            display: flex;
+            text-align: start;
+            div{
+                margin-top: 30%;
+                margin-left: 10%;
+                h3 {
+                    font-family: $lerea1;
+                    font-size: 250%;
+                }
+                h2 {
+                    margin: 0;
+                    margin-bottom: -7%;
+                    font-size: 1000%;
+                    font-family: 'Reigo', sans-serif;
+                                                
+                }
+                div {
+                    margin-top: 15%;
+                    margin-left: 0;
+                    a {
+                        background-color: $Secundario;
+                        padding: 1% 5%;
+                        border-radius: 10rem;
+                        font-size: 300%;
+                        font-weight: bold;
+                        font-family: $lerea1;
+                        text-decoration: none;
+                        color: $Negro2;
+                    }
+                }
+            }
+        }
+        #pag1-der {
+            width: 50vw;
+            display: flex;
+            text-align: end;
+            justify-content: center;
+            div{
+                width: 60%;
+                padding: 0;
+                margin: 70% 0 0 2%;
+                h3 {
+                    font-family: $lerea1;
+                    font-size: 200%;
+                }
+                p {
+                    font-family: $letra2;
+                    font-size: 150%;
+                }
+            }
+        }
+    }
+    #pag2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        #pag2-arr {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            z-index: -50;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 90%;
+                height: 90%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: $Primario;
+                border-radius: 50rem 50rem 0px 0px;
+                margin-top: 70%;
+                h2 {
+                    width: 30%;
+                    text-align: center;
+                    font-size: 300%;
+                    font-size: $lerea1;
+                    margin-top: -33%;
+
+                }
+                P {
+                    width: 60%;
+                    text-align: center;
+                    font-size: $letra2;
+                    font-size: 200%;
+                    margin-top: -2%;
+                }
+            }
+        }
+        #pag2-aba {
+            width: 90vw;
+            height: 90vh;
+            position: absolute;
+            z-index: -51;
+            background-image: url(../img/modelos/pag2.PNG);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            border-radius: 3rem;
+        }
+    }
+    #pag3 {
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #img1 {
+            width: 55%;
+            height: 40%;
+            margin-left: 2%;
+            margin-top: 3%;
+            position: absolute;
+            z-index: -49;
+            background-image: url(../img/modelos/pag3-1.PNG);
+        }
+        #img2{
+            width: 35%;
+            height: 40%;
+            margin-top: 3%;
+            margin-left: 60%;
+            position: absolute;
+            z-index: -48;
+            background-image: url(../img/modelos/pag3-2.PNG);
+        }
+        #img3{
+            width: 55%;
+            height: 40%;
+            margin-top: 30%;
+            margin-left: 5%;
+            position: absolute;
+            z-index: -47;
+            background-image: url(../img/modelos/pag3-3.PNG);
+        }
+        #img4{
+            width: 60%;
+            height: 50%;
+            margin-top: 25%;
+            margin-left: 50%;
+            position: absolute;
+            z-index: -46;
+            background-image: url(../img/modelos/pag2.PNG);
+        }
+    }
+}
