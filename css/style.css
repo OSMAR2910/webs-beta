@@ -284,6 +284,18 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #c29adf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2ccec;
+}
+
 body {
   overflow-x: hidden;
   background-color: #e2ccec;
@@ -335,7 +347,7 @@ body #pag1 #pag1-der {
 body #pag1 #pag1-der div {
   width: 60%;
   padding: 0;
-  margin: 70% 0 0 2%;
+  margin: 65% 0 0 2%;
 }
 body #pag1 #pag1-der div h3 {
   font-family: "Arima", system-ui;
@@ -368,14 +380,14 @@ body #pag2 #pag2-arr div {
   flex-direction: column;
   background-color: #e2ccec;
   border-radius: 50rem 50rem 0px 0px;
-  margin-top: 70%;
+  margin-top: 65%;
 }
 body #pag2 #pag2-arr div h2 {
   width: 30%;
   text-align: center;
   font-size: 300%;
   font-size: "Arima", system-ui;
-  margin-top: -33%;
+  margin-top: -32%;
 }
 body #pag2 #pag2-arr div P {
   width: 60%;
@@ -396,15 +408,84 @@ body #pag2 #pag2-aba {
   border-radius: 3rem;
 }
 body #pag3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #pag3 #pag3-arr {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+body #pag3 #pag3-arr div {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body #pag3 #pag3-arr div h2 {
+  width: 30%;
+  text-align: center;
+  font-size: 250%;
+  font-size: "Arima", system-ui;
+}
+body #pag3 #pag3-arr div P {
+  width: 50%;
+  text-align: center;
+  font-size: "Quicksand", sans-serif;
+  font-size: 150%;
+  margin-top: -1%;
+}
+body #pag3 #pag3-aba {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+body #pag3 #pag3-aba div {
+  width: 90%;
+  height: 60%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #pag3 #pag3-aba div ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+body #pag3 #pag3-aba div ul a {
+  width: 100%;
+  height: 100%;
+}
+body #pag3 #pag3-aba div ul a img {
+  width: 100%;
+  height: 100%;
+}
+body #pag3 #pag3-aba div ul a p {
+  font-family: "Arima", system-ui;
+  font-size: 3rem;
+}
+body #pag4 {
   display: flex;
   flex-wrap: wrap;
 }
-body #pag3 div {
+body #pag4 div {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-body #pag3 #img1 {
+body #pag4 #img1 {
   width: 55%;
   height: 40%;
   margin-left: 2%;
@@ -413,7 +494,7 @@ body #pag3 #img1 {
   z-index: -49;
   background-image: url(../img/modelos/pag3-1.PNG);
 }
-body #pag3 #img2 {
+body #pag4 #img2 {
   width: 35%;
   height: 40%;
   margin-top: 3%;
@@ -422,7 +503,7 @@ body #pag3 #img2 {
   z-index: -48;
   background-image: url(../img/modelos/pag3-2.PNG);
 }
-body #pag3 #img3 {
+body #pag4 #img3 {
   width: 55%;
   height: 40%;
   margin-top: 30%;
@@ -431,7 +512,7 @@ body #pag3 #img3 {
   z-index: -47;
   background-image: url(../img/modelos/pag3-3.PNG);
 }
-body #pag3 #img4 {
+body #pag4 #img4 {
   width: 47%;
   height: 50%;
   margin-top: 25%;
